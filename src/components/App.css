@@ -1,0 +1,45 @@
+.app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+
+.galleryColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.searchContainer {
+  width: 95%;
+  display: flex;
+  background-color: #d9d9d9;
+  border-radius: 40px;
+}
+
+.searchInput {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 40px;
+  background-color: #d9d9d9;
+  outline: none;
+}
+
+.searchImg {
+  padding: 10px;
+}
