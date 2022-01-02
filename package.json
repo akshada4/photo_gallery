@@ -16,7 +16,7 @@
   "homepage": "https://akshada4.github.io/photo_gallery",
   "scripts": {
     "predeploy": "npm run build",
-    "start": "HOST=0.0.0.0 react-scripts start",
+    "start": "react-scripts start",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
