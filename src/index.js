@@ -8,8 +8,8 @@ import SearchPage from './SearchPage'
 ReactDOM.render(
   <Router>
     <Routes>
-      <Route path="/photo_gallery" element={<Mainpage />} />
-      <Route path="/photo_gallery/search=:SearchText" element={<SearchPage />} />
+      <Route path="/" element={<Mainpage />} />
+      <Route path="/search=:SearchText" element={<SearchPage />} />
     </Routes>
   </Router> ,
   document.getElementById('root')
